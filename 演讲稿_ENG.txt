@@ -1,0 +1,75 @@
+这是我们项目的web application页面，在这里你可以注册，登录。
+这是注册界面，注册完成后即可登录。
+网页左边可以按照类别进入查看，点击按钮可以进入查看物品详情。
+选择尺码和数量可以完成购买。
+在这里你可以修改你的所有订单
+这里可以查看购物车
+在首页下方你可以看到分析结果
+
+This is the web application page of our project, where you can register and log in.
+This is the registration interface, you can log in after the registration is completed.
+On the left side of the page, you can enter to view by category, and click the button to enter to view item details.
+Choose the size and quantity to complete the purchase.
+Here you can modify all your orders
+You can view the shopping cart here
+Below the home page you can see the analysis results
+
+
+
+我们项目做的是一个在线的服装销售系统，我们在上学期项目的基础上进行改进，增加了在线分析的结果。在这一视频中，我们将介绍我们做出了哪些改进。
+Our project is an online clothing sales system. We improved on the basis of the last semester project and added the results of online analysis. In this video, we will introduce what improvements we have made.
+
+我们将日志存放到HBase中，HUtil连接HBase，存入数据。
+首先，在HBase中建立表，存储数据
+create 'Intel_input', 'info_intelInput'
+create 'Person_input', 'info_personInput'
+scan 'Person_input'
+（点击加入购物车，购买）
+scan 'Person_input'
+
+We need to store the log in HBase, use HBUtil to connect to HBase, and store the data.
+First, we have to create a table in HBase and store the data.
+create'Intel_input','info_intelInput'
+create'Person_input','info_personInput'
+As you can see, we have created the table in hbase. I will scan the table and get the result.
+scan'Person_input'
+Now, I will login as admin and add an new records.
+(Click to add to cart, buy)
+scan'Person_input'
+
+打开首页可以看到底下的日志分析的连接，点开连接可以得到数据分析的结果，这个结果是通过ajax发送post请求到TestServlet，TestServlet从HBase中获得数据并返回json数据到前端，由JavaScript绘制Echart图表。
+Open the homepage to see the link of the log analysis below, click the link to get the results of data analysis.This result is to send a post request to TestServlet through ajax, and TestServlet obtains specific data from HBase and returns json data to the front end, and Echart charts are drawn by JavaScript.
+
+http://localhost:8084/shopping/TestServlet?table=Intel
+打开这个网页即可看到返回的json数据，共有15个，依次对应图表中的15个数据
+http://localhost:8084/shopping/TestServlet?table=Intel
+Open this page to see the returned json data, there are 15 in total, corresponding to the 15 data in the chart in turn.
+
+分析功能主要通过以下几个步骤实现：
+在Hive中建立外部表，与HBase中的表联合
+在Hive中建立一个新表，导入数据，然后再存入HBase中
+除此之外还需要建立6个输出表存放数据结果
+The analysis function is mainly achieved through the following steps:
+Create an external table in Hive and join it with a table in HBase
+Create a new table in Hive, import the data, and then save it in HBase.
+In addition, you need to create 6 output tables to store data results.
+
+
+然后是分析日志的步骤，在Hive中依次输入以下几个命令运行即可,由此可以看到数据的变化
+Then is the step of analyzing the log. In Hive, enter the following commands in order to run, so we can see the data change
+
+现在可以看到在我们自己日志的分析界面的hits图表中的分析结果，接下来我将点击一个item6次，这样它会排在第2的位置。
+先scan hbase中的person_outputclick表格查看内容
+然后我们输入hive分析命令并运行
+Now you can see the analysis results in the hits chart of the analysis interface of our own log. Next, I will click on an item 6 times, so that it will be ranked in the second position.
+First scan the person_outputclick table in hbase to view the content.
+Then we enter the hive analysis command and run
+
+scan 'person_outputclick'
+insert into table person_outputclick select ff.*, row_number() over(partition by 1) from (select f.* from (select iteid, count(*) c from person_input group by iteid order by c desc limit 5)f order by f.c)ff;
+scan 'person_outputclick'
+
+等待分析结果，再次scan person_outputclick表格查看内容
+再打开分析界面可以发现数据的变化。
+Wait for the analysis result, scan the person_outputclick form again to view the content
+Then open the analysis interface to discover the data changes.

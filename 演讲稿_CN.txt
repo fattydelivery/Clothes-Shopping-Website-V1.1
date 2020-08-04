@@ -1,0 +1,24 @@
+我们项目做的是一个在线的服装销售系统，我们在上学期项目的基础上进行改进，增加了在线分析的结果。在这一视频中，我们将介绍我们做出了哪些改进。
+
+我们将日志存放到HBase中，HBUtil连接HBase，存入数据。
+首先，在HBase中建立表，存储数据
+create 'Intel_input', 'info_intelInput'
+create 'Person_input', 'info_personInput'
+scan 'Person_input'
+（点击加入购物车，购买）
+scan 'Person_input'
+
+打开首页可以看到底下的日志分析的连接，点开连接可以得到数据分析的结果，这个结果是通过ajax发送post请求到TestServlet，TestServlet从HBase中获得数据并返回json数据到前端，由JavaScript绘制Echart图表。
+
+http://localhost:8084/shopping/TestServlet?table=Intel
+打开这个网页即可看到返回的json数据，共有15个，依次对应图表中的15个数据
+
+分析功能通过以下几个步骤实现：
+
+在Hive中建立外部表，与HBase中的表联合
+在Hive中建立一个新表，导入数据，然后再存入HBase中
+除此之外还需要建立6个输出表存放数据结果
+
+然后是分析日志的步骤，在Hive中依次输入以下几个命令运行即可
+
+由此可以看到数据的变化

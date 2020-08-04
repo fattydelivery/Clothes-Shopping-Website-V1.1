@@ -1,0 +1,61 @@
+create two input tables:
+1. on HBase: create 'Intel_input', 'info_intelInput'
+    on Hive:    create external table Intel_input(actid int, catid int, iteid int, timid int, useid int) stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' with serdeproperties("hbase.columns.mapping"="info_intelInput:actid, info_intelInput:catid, info_intelInput:iteid, :key, info_intelInput:timid") tblproperties("hbase.table.name"="Intel_input");
+2. on HBase: create 'Person_input', 'info_personInput'
+    on Hive:    create external table Person_input(actid int, catid string, iteid int, timid string, useid string) stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' with serdeproperties("hbase.columns.mapping"="info_personInput:actid, info_personInput:catid, info_personInput:iteid, :key, info_personInput:useid") tblproperties("hbase.table.name"="Person_input");
+
+load data
+create table Intel_input_temp(useid int, selid int, iteid int, catid int, actid int, timid int) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+load data local inpath '/home/hadoop/misc/intel_data.csv' into table Intel_input_temp;
+insert overwrite table Intel_input select actid,catid,iteid,timid,useid from Intel_input_temp;
+
+
+create six output tables:
+1. on Hive: create table Intel_outputClick(id string, val int) stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' with serdeproperties ("hbase.columns.mapping"=":key, info_outputIC:val");
+2. on Hive: create table Intel_outputSale(id string, val int) stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' with serdeproperties ("hbase.columns.mapping"=":key, info_outputIS:val");
+3. on Hive: create table Intel_outputBuy(id string, val float) stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' with serdeproperties ("hbase.columns.mapping"=":key, info_outputIB:val");
+
+1. on Hive: create table person_outputClick(id string, val int) stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' with serdeproperties ("hbase.columns.mapping"=":key, info_outputPC:val");
+2. on Hive: create table person_outputSale(id string, val int) stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' with serdeproperties ("hbase.columns.mapping"=":key, info_outputPS:val");
+3. on Hive: create table person_outputBuy(id string, val float) stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' with serdeproperties ("hbase.columns.mapping"=":key, info_outputPB:val");
+
+intel
+点击量：
+insert into table Intel_outputClick select t.item,count(*) c from (select explode(split(iteid,'\n')) as item from Intel_input) as t group by t.item order by c desc limit 5;
+
+
+销售量：
+insert into table Intel_outputSale select t.item,count(*) c from (select explode(split(iteid,'\n')) as item from Intel_input where actid=1) as t group by t.item order by c desc limit 5;
+
+购买率：
+insert into table Intel_outputBuy select iteid, sum(case when actid==1 then 1 else 0 end)/count(actid) as rate from Intel_input group by iteid order by rate desc;
+
+person
+点击量：
+insert into table person_outputClick select t.item,count(*) c from (select explode(split(iteid,'\n')) as item from person_input) as t group by t.item order by c desc limit 5;
+
+
+销售量：
+insert into table person_outputSale select t.item,count(*) c from (select explode(split(iteid,'\n')) as item from person_input where actid=1) as t group by t.item order by c desc limit 5;
+
+购买率：
+insert into table person_outputBuy select iteid, sum(case when actid==1 then 1 else 0 end)/count(actid) as rate from person_input group by iteid order by rate desc;
+
+
+drop table person_input;
+drop table person_outputbuy;
+drop table person_outputsale;
+drop table person_outputclick;
+
+drop table intel_input;
+drop table intel_outputbuy;
+drop table intel_outputsale;
+drop table intel_outputclick;
+drop table intel_input_temp;
+
+disable 'Intel_input'
+drop 'Intel_input'
+disable 'Person_input'
+drop 'Person_input'
+
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Clothes Shopping Website Data Analysis</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body style="text-align: center; min-height: 100%;">
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="MostPopularItem" style="width: 800px;height:400px; margin: 0 auto;"></div>
+    <div id="BestSell" style="width: 800px;height:400px; margin: 0 auto;"></div>
+    <div id="BuyRate" style="width: 800px;height:50px; margin: 0 auto;"></div>
+    <div style="width: 800px;height:400px; margin: 0 auto;">
+        <div id="item1" style="width: 30%;height:200px; float:left;margin: 0 auto;"></div>
+        <div id="item2" style="width: 30%;height:200px; float:left;margin: 0 auto;"></div>
+        <div id="item3" style="width: 30%;height:200px; float:left;margin: 0 auto;"></div>
+    </div>
+    <div id="CombineSold" style="width: 800px;height:400px; margin: 0 auto;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('MostPopularItem'));
+ 
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: 'Most Popular Item'
+            },
+            tooltip: {},
+            legend: {
+                data:['Clicks']
+            },
+            xAxis: {
+                data: ["woman-short sleeve","woman-skirt","man-shirt","woman-dress","girl-frocks"]
+            },
+            yAxis: {},
+            series: [{
+                name: 'Clicks',
+                type: 'bar',
+                data: [30, 28, 23, 20, 18]
+            }]
+        };
+ 
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('BestSell'));
+ 
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: 'Best Sellers Top5'
+            },
+            tooltip: {},
+            legend: {
+                data:['Sales']
+            },
+            xAxis: {
+                data: ["woman-pajamas","girl-frocks","man-shirt","woman-dress","boy-sweater"]
+            },
+            yAxis: {},
+            series: [{
+                name: 'Sales',
+                type: 'bar',
+                data: [30, 28, 23, 20, 18]
+            }]
+        };
+ 
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+    <script type="text/javascript">
+        function drawPie(a, tit) {
+            var option = {
+                title : {
+            text: tit,
+            x:'center',
+            y: 'bottom',
+            },
+                series : [{
+            name: 'haha',
+            type: 'pie',
+            radius: '55%',
+            roseType: 'angle',
+            data:[
+                {value:a, name:'Buy'},
+                {value:100-a, name:'Just click'}
+            ]
+                } ] };
+            return option;
+        }
+    </script>
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById('BuyRate'));
+        var option = {
+            title: {
+                text: 'Buy Rate Top3'
+            }};
+        myChart.setOption(option);
+        myChart = echarts.init(document.getElementById('item1'));
+        myChart.setOption(drawPie(75, 'man-shirt'));
+        myChart = echarts.init(document.getElementById('item2'));
+        myChart.setOption(drawPie(66, 'man-jacket'));
+        myChart = echarts.init(document.getElementById('item3'));
+        myChart.setOption(drawPie(58, 'woman-suit'));
+    </script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('CombineSold'));
+ 
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: 'Combine Sold Top5'
+            },
+            tooltip: {},
+            legend: {
+                data:['Sales']
+            },
+            xAxis: {
+                data: ["short+shirt","sleeve+skirt","shirt+trousers","pants+shirt","pants+sweater"]
+            },
+            yAxis: {},
+            series: [{
+                name: 'Sales',
+                type: 'bar',
+                data: [5, 5, 4, 3, 1]
+            }]
+        };
+ 
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

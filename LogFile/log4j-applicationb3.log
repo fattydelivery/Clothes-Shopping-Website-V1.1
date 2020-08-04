@@ -1,0 +1,126 @@
+2019-12-18 10:30:50 INFO  genLog:28 - 2019-12-18 10:30:50,beiyu,192.168.0.104,0,3,28,coat2,PUMA official flagship store
+2019-12-18 10:31:00 INFO  genLog:28 - 2019-12-18 10:31:00,beiyu,192.168.0.104,0,2,22,shortsleeve2,Uniqlos official flagship store
+2019-12-18 10:31:02 INFO  genLog:28 - 2019-12-18 10:31:02,beiyu,192.168.0.104,0,2,22,shortsleeve3,ZARA official flagship store
+2019-12-18 10:31:04 INFO  genLog:28 - 2019-12-18 10:31:04,beiyu,192.168.0.104,0,1,10,shortsleeve1,ZARA official flagship store
+2019-12-18 10:31:14 INFO  genLog:28 - 2019-12-18 10:31:14,beiyu,192.168.0.104,0,1,10,shortsleeve1,ZARA official flagship store
+2019-12-18 10:31:18 INFO  genLog:28 - 2019-12-18 10:31:18,beiyu,192.168.0.104,0,1,11,shorts1,H&M official flagship store
+2019-12-18 10:31:21 INFO  genLog:28 - 2019-12-18 10:31:21,beiyu,192.168.0.104,0,2,25,shorts2,MLB official flagship store
+2019-12-18 10:31:24 INFO  genLog:28 - 2019-12-18 10:31:24,beiyu,192.168.0.104,0,2,25,shorts3,PUMA official flagship store
+2019-12-18 10:31:27 INFO  genLog:28 - 2019-12-18 10:31:27,beiyu,192.168.0.104,0,1,11,shorts1,H&M official flagship store
+2019-12-18 10:32:05 INFO  genLog:28 - 2019-12-18 10:32:05,beiyu,192.168.0.104,0,3,35,pants1,BOY LONDON official flagship store
+2019-12-18 10:32:40 INFO  genLog:28 - 2019-12-18 10:32:40,beiyu,192.168.0.104,0,3,31,shirt1,H&M official flagship store
+2019-12-18 10:32:44 INFO  genLog:28 - 2019-12-18 10:32:44,beiyu,192.168.0.104,0,3,31,shirt2,ZARA official flagship store
+2019-12-18 10:32:49 INFO  genLog:28 - 2019-12-18 10:32:49,beiyu,192.168.0.104,0,2,15,downjacket1,BOY LONDON official flagship store
+2019-12-18 10:32:51 INFO  genLog:28 - 2019-12-18 10:32:51,beiyu,192.168.0.104,0,2,15,downjacket2,PUMA official flagship store
+2019-12-18 10:32:53 INFO  genLog:28 - 2019-12-18 10:32:53,beiyu,192.168.0.104,0,2,15,downjacket3,Uniqlos official flagship store
+2019-12-18 10:32:57 INFO  genLog:28 - 2019-12-18 10:32:57,beiyu,192.168.0.104,0,1,8,dress1,PUMA official flagship store
+2019-12-18 10:33:02 INFO  genLog:28 - 2019-12-18 10:33:02,beiyu,192.168.0.104,0,1,9,skirt1,Uniqlos official flagship store
+2019-12-18 10:33:15 INFO  genLog:28 - 2019-12-18 10:33:15,beiyu,192.168.0.104,0,2,21,T-shirt1,H&M official flagship store
+2019-12-18 10:33:19 INFO  genLog:28 - 2019-12-18 10:33:19,beiyu,192.168.0.104,0,2,23,suit1,adidas official flagship store
+2019-12-18 10:33:24 INFO  genLog:28 - 2019-12-18 10:33:24,beiyu,192.168.0.104,0,1,5,shirt,NIKE official flagship store
+2019-12-18 10:33:28 INFO  genLog:28 - 2019-12-18 10:33:28,beiyu,192.168.0.104,0,2,18,sweatershirt1,Uniqlos official flagship store
+2019-12-18 10:33:31 INFO  genLog:28 - 2019-12-18 10:33:31,beiyu,192.168.0.104,0,1,14,pajamas1,NIKE official flagship store
+2019-12-18 10:33:35 INFO  genLog:28 - 2019-12-18 10:33:35,beiyu,192.168.0.104,0,1,13,sportswear1,Yishion official flagship store
+2019-12-18 10:33:40 INFO  genLog:28 - 2019-12-18 10:33:40,beiyu,192.168.0.104,0,2,17,sweater1,PUMA official flagship store
+2019-12-18 10:33:56 INFO  genLog:28 - 2019-12-18 10:33:56,beiyu,192.168.0.104,0,1,12,trousers1,adidas official flagship store
+2019-12-18 10:34:02 INFO  genLog:28 - 2019-12-18 10:34:02,beiyu,192.168.0.104,0,1,10,shortsleeve1,ZARA official flagship store
+2019-12-18 10:34:08 INFO  genLog:28 - 2019-12-18 10:34:08,beiyu,192.168.0.104,0,2,22,shortsleeve2,Uniqlos official flagship store
+2019-12-18 10:34:12 INFO  genLog:28 - 2019-12-18 10:34:12,beiyu,192.168.0.104,0,2,22,shortsleeve3,ZARA official flagship store
+2019-12-18 10:34:20 INFO  genLog:28 - 2019-12-18 10:34:20,beiyu,192.168.0.104,0,2,17,sweater1,PUMA official flagship store
+2019-12-18 10:34:27 INFO  genLog:28 - 2019-12-18 10:34:27,beiyu,192.168.0.104,0,4,45,cartoon1,Uniqlos official flagship store
+2019-12-18 10:34:36 INFO  genLog:28 - 2019-12-18 10:34:36,beiyu,192.168.0.104,0,2,20,businessshirt1,ZARA official flagship store
+2019-12-18 10:34:46 INFO  genLog:28 - 2019-12-18 10:34:46,beiyu,192.168.0.104,0,2,20,businessshirt2,MLB official flagship store
+2019-12-18 10:34:54 INFO  genLog:28 - 2019-12-18 10:34:54,beiyu,192.168.0.104,1,first,second,businessshirt2,null
+2019-12-18 10:35:17 INFO  genLog:28 - 2019-12-18 10:35:17,beiyu,192.168.0.104,1,first,second,businessshirt2,null
+2019-12-18 10:35:34 INFO  genLog:28 - 2019-12-18 10:35:34,beiyu,192.168.0.104,1,first,second,businessshirt2,null
+2019-12-18 10:36:19 INFO  genLog:28 - 2019-12-18 10:36:19,beiyu,192.168.0.104,0,2,16,jacket1,MLB official flagship store
+2019-12-18 10:38:21 INFO  genLog:28 - 2019-12-18 10:38:21,beiyu,192.168.0.104,0,4,43,frocks1,NIKE official flagship store
+2019-12-18 10:38:31 INFO  genLog:28 - 2019-12-18 10:38:31,beiyu,192.168.0.104,1,first,second,frocks1,null
+2019-12-18 10:38:36 INFO  genLog:28 - 2019-12-18 10:38:36,beiyu,192.168.0.104,0,3,31,shirt1,H&M official flagship store
+2019-12-18 10:38:56 INFO  genLog:28 - 2019-12-18 10:38:56,beiyu,192.168.0.104,0,3,31,shirt1,H&M official flagship store
+2019-12-18 12:48:10 INFO  genLog:28 - 2019-12-18 12:48:10,beiyu,192.168.0.104,0,3,28,coat1,PUMA official flagship store
+2019-12-18 12:48:11 INFO  genLog:28 - 2019-12-18 12:48:11,beiyu,192.168.0.104,0,3,28,coat2,PUMA official flagship store
+2019-12-18 12:49:29 INFO  genLog:28 - 2019-12-18 12:49:29,beiyu,192.168.0.104,0,2,17,sweater1,PUMA official flagship store
+2019-12-18 12:49:34 INFO  genLog:28 - 2019-12-18 12:49:34,beiyu,192.168.0.104,0,2,17,sweater1,PUMA official flagship store
+2019-12-18 12:52:23 INFO  genLog:28 - 2019-12-18 12:52:23,beiyu,192.168.0.104,0,2,17,sweater1,PUMA official flagship store
+2019-12-18 12:58:45 INFO  genLog:28 - 2019-12-18 12:58:45,beiyu,192.168.0.104,0,3,29,30,Uniqlos official flagship store
+2019-12-18 12:58:49 INFO  genLog:28 - 2019-12-18 12:58:49,beiyu,192.168.0.104,0,3,29,72,NIKE official flagship store
+2019-12-18 12:58:52 INFO  genLog:28 - 2019-12-18 12:58:52,beiyu,192.168.0.104,0,3,30,31,ZARA official flagship store
+2019-12-18 12:58:56 INFO  genLog:28 - 2019-12-18 12:58:56,beiyu,192.168.0.104,0,3,31,32,H&M official flagship store
+2019-12-18 12:58:58 INFO  genLog:28 - 2019-12-18 12:58:58,beiyu,192.168.0.104,0,3,31,77,ZARA official flagship store
+2019-12-18 12:59:02 INFO  genLog:28 - 2019-12-18 12:59:02,beiyu,192.168.0.104,0,3,32,33,adidas official flagship store
+2019-12-18 12:59:05 INFO  genLog:28 - 2019-12-18 12:59:05,beiyu,192.168.0.104,0,3,32,84,PUMA official flagship store
+2019-12-18 12:59:08 INFO  genLog:28 - 2019-12-18 12:59:08,beiyu,192.168.0.104,0,4,44,45,BOY LONDON official flagship store
+2019-12-18 12:59:13 INFO  genLog:28 - 2019-12-18 12:59:13,beiyu,192.168.0.104,0,2,21,22,H&M official flagship store
+2019-12-18 12:59:15 INFO  genLog:28 - 2019-12-18 12:59:15,beiyu,192.168.0.104,0,2,21,70,adidas official flagship store
+2019-12-18 12:59:17 INFO  genLog:28 - 2019-12-18 12:59:17,beiyu,192.168.0.104,0,2,21,71,Yishion official flagship store
+2019-12-18 12:59:20 INFO  genLog:28 - 2019-12-18 12:59:20,beiyu,192.168.0.104,0,1,5,6,NIKE official flagship store
+2019-12-18 12:59:23 INFO  genLog:28 - 2019-12-18 12:59:23,beiyu,192.168.0.104,0,1,12,13,adidas official flagship store
+2019-12-18 12:59:26 INFO  genLog:28 - 2019-12-18 12:59:26,beiyu,192.168.0.104,0,1,11,12,H&M official flagship store
+2019-12-18 12:59:29 INFO  genLog:28 - 2019-12-18 12:59:29,beiyu,192.168.0.104,0,1,10,11,ZARA official flagship store
+2019-12-18 12:59:36 INFO  genLog:28 - 2019-12-18 12:59:36,beiyu,192.168.0.104,0,1,4,5,Yishion official flagship store
+2019-12-18 13:00:52 INFO  genLog:28 - 2019-12-18 13:00:52,beiyu,192.168.0.104,0,2,22,23,H&M official flagship store
+2019-12-18 13:00:54 INFO  genLog:28 - 2019-12-18 13:00:54,beiyu,192.168.0.104,0,2,22,57,Uniqlos official flagship store
+2019-12-18 13:00:56 INFO  genLog:28 - 2019-12-18 13:00:56,beiyu,192.168.0.104,0,2,22,58,ZARA official flagship store
+2019-12-18 13:00:59 INFO  genLog:28 - 2019-12-18 13:00:59,beiyu,192.168.0.104,0,2,23,24,adidas official flagship store
+2019-12-18 13:01:01 INFO  genLog:28 - 2019-12-18 13:01:01,beiyu,192.168.0.104,0,2,23,61,Yishion official flagship store
+2019-12-18 13:01:04 INFO  genLog:28 - 2019-12-18 13:01:04,beiyu,192.168.0.104,0,2,27,28,MLB official flagship store
+2019-12-18 13:01:06 INFO  genLog:28 - 2019-12-18 13:01:06,beiyu,192.168.0.104,0,2,27,53,NIKE official flagship store
+2019-12-18 13:01:07 INFO  genLog:28 - 2019-12-18 13:01:07,beiyu,192.168.0.104,0,2,27,54,BOY LONDON official flagship store
+2019-12-18 13:01:12 INFO  genLog:28 - 2019-12-18 13:01:12,beiyu,192.168.0.104,0,2,15,16,BOY LONDON official flagship store
+2019-12-18 13:01:13 INFO  genLog:28 - 2019-12-18 13:01:13,beiyu,192.168.0.104,0,2,15,47,PUMA official flagship store
+2019-12-18 13:01:15 INFO  genLog:28 - 2019-12-18 13:01:15,beiyu,192.168.0.104,0,2,15,48,Uniqlos official flagship store
+2019-12-18 13:05:07 INFO  genLog:28 - 2019-12-18 13:05:07,beiyu,192.168.0.104,0,2,15,47,PUMA official flagship store
+2019-12-18 13:05:09 INFO  genLog:28 - 2019-12-18 13:05:09,beiyu,192.168.0.104,0,2,15,48,Uniqlos official flagship store
+2019-12-18 13:05:14 INFO  genLog:28 - 2019-12-18 13:05:14,beiyu,192.168.0.104,0,4,41,42,adidas official flagship store
+2019-12-18 13:06:18 INFO  genLog:28 - 2019-12-18 13:06:18,beiyu,192.168.0.104,0,3,36,37,MLB official flagship store
+2019-12-18 13:06:20 INFO  genLog:28 - 2019-12-18 13:06:20,beiyu,192.168.0.104,0,3,36,73,BOY LONDON official flagship store
+2019-12-18 13:06:21 INFO  genLog:28 - 2019-12-18 13:06:21,beiyu,192.168.0.104,0,3,36,74,MLB official flagship store
+2019-12-18 13:06:25 INFO  genLog:28 - 2019-12-18 13:06:25,beiyu,192.168.0.104,0,3,29,30,Uniqlos official flagship store
+2019-12-18 13:06:29 INFO  genLog:28 - 2019-12-18 13:06:29,beiyu,192.168.0.104,0,2,19,20,ZARA official flagship store
+2019-12-18 13:06:30 INFO  genLog:28 - 2019-12-18 13:06:30,beiyu,192.168.0.104,0,2,19,51,adidas official flagship store
+2019-12-18 13:06:32 INFO  genLog:28 - 2019-12-18 13:06:32,beiyu,192.168.0.104,0,2,19,52,Yishion official flagship store
+2019-12-18 13:06:36 INFO  genLog:28 - 2019-12-18 13:06:36,beiyu,192.168.0.104,0,2,18,19,Uniqlos official flagship store
+2019-12-18 13:06:38 INFO  genLog:28 - 2019-12-18 13:06:38,beiyu,192.168.0.104,0,2,18,64,MLB official flagship store
+2019-12-18 13:06:39 INFO  genLog:28 - 2019-12-18 13:06:39,beiyu,192.168.0.104,0,2,18,65,MLB official flagship store
+2019-12-18 13:06:42 INFO  genLog:28 - 2019-12-18 13:06:42,beiyu,192.168.0.104,0,2,18,66,PUMA official flagship store
+2019-12-18 13:06:45 INFO  genLog:28 - 2019-12-18 13:06:45,beiyu,192.168.0.104,0,4,45,1,Uniqlos official flagship store
+2019-12-18 13:06:48 INFO  genLog:28 - 2019-12-18 13:06:48,beiyu,192.168.0.104,0,4,44,45,BOY LONDON official flagship store
+2019-12-18 13:06:58 INFO  genLog:28 - 2019-12-18 13:06:58,beiyu,192.168.0.104,0,4,44,45,BOY LONDON official flagship store
+2019-12-18 13:08:07 INFO  genLog:28 - 2019-12-18 13:08:07,beiyu,192.168.0.104,0,2,26,27,BOY LONDON official flagship store
+2019-12-18 13:08:09 INFO  genLog:28 - 2019-12-18 13:08:09,beiyu,192.168.0.104,0,2,26,67,Uniqlos official flagship store
+2019-12-18 13:08:11 INFO  genLog:28 - 2019-12-18 13:08:11,beiyu,192.168.0.104,0,2,26,68,ZARA official flagship store
+2019-12-18 13:08:13 INFO  genLog:28 - 2019-12-18 13:08:13,beiyu,192.168.0.104,0,2,26,69,H&M official flagship store
+2019-12-18 13:08:19 INFO  genLog:28 - 2019-12-18 13:08:19,beiyu,192.168.0.104,0,4,37,38,PUMA official flagship store
+2019-12-18 13:08:26 INFO  genLog:28 - 2019-12-18 13:08:26,beiyu,192.168.0.104,0,1,8,9,PUMA official flagship store
+2019-12-18 15:19:47 INFO  genLog:28 - 2019-12-18 15:19:47,beiyu,192.168.0.104,0,3,28,29,PUMA official flagship store
+2019-12-18 15:19:52 INFO  genLog:28 - 2019-12-18 15:19:52,beiyu,192.168.0.104,1,first,second,29,null
+2019-12-18 15:20:04 INFO  genLog:28 - 2019-12-18 15:20:04,beiyu,192.168.0.104,0,3,28,75,PUMA official flagship store
+2019-12-18 15:20:10 INFO  genLog:28 - 2019-12-18 15:20:10,beiyu,192.168.0.104,1,first,second,75,null
+2019-12-18 15:21:57 INFO  genLog:28 - 2019-12-18 15:21:57,beiyu,192.168.0.104,0,3,28,75,PUMA official flagship store
+2019-12-18 15:22:01 INFO  genLog:28 - 2019-12-18 15:22:01,beiyu,192.168.0.104,1,first,second,75,null
+2019-12-18 15:23:00 INFO  genLog:28 - 2019-12-18 15:23:00,beiyu,192.168.0.104,0,3,29,30,Uniqlos official flagship store
+2019-12-18 15:23:05 INFO  genLog:28 - 2019-12-18 15:23:05,beiyu,192.168.0.104,1,first,second,30,null
+2019-12-18 15:24:16 INFO  genLog:28 - 2019-12-18 15:24:16,beiyu,192.168.0.104,1,first,second,30,null
+2019-12-18 15:24:20 INFO  genLog:28 - 2019-12-18 15:24:20,beiyu,192.168.0.104,0,4,38,39,Uniqlos official flagship store
+2019-12-18 15:24:28 INFO  genLog:28 - 2019-12-18 15:24:28,beiyu,192.168.0.104,1,first,second,39,null
+2019-12-18 15:32:06 INFO  genLog:28 - 2019-12-18 15:32:06,beiyu,192.168.0.104,1,first,second,frocks1,null
+2019-12-18 15:32:34 INFO  genLog:28 - 2019-12-18 15:32:34,beiyu,192.168.0.104,1,first,second,frocks1,null
+2019-12-18 15:32:39 INFO  genLog:28 - 2019-12-18 15:32:39,beiyu,192.168.0.104,1,first,second,frocks1,null
+2019-12-18 15:33:25 INFO  genLog:28 - 2019-12-18 15:33:25,beiyu,192.168.0.104,1,first,second,44,null
+2019-12-18 15:33:30 INFO  genLog:28 - 2019-12-18 15:33:30,beiyu,192.168.0.104,0,3,30,31,ZARA official flagship store
+2019-12-18 15:33:38 INFO  genLog:28 - 2019-12-18 15:33:38,beiyu,192.168.0.104,1,first,second,31,null
+2019-12-18 15:35:30 INFO  genLog:28 - 2019-12-18 15:35:30,beiyu,192.168.0.104,0,2,26,27,BOY LONDON official flagship store
+2019-12-18 15:35:37 INFO  genLog:28 - 2019-12-18 15:35:37,beiyu,192.168.0.104,0,2,26,68,ZARA official flagship store
+2019-12-18 15:35:43 INFO  genLog:28 - 2019-12-18 15:35:43,beiyu,192.168.0.104,0,2,26,69,H&M official flagship store
+2019-12-18 15:35:52 INFO  genLog:28 - 2019-12-18 15:35:52,beiyu,192.168.0.104,0,4,42,43,Yishion official flagship store
+2019-12-18 15:36:01 INFO  genLog:28 - 2019-12-18 15:36:01,beiyu,192.168.0.104,1,first,second,43,null
+2019-12-18 15:36:09 INFO  genLog:28 - 2019-12-18 15:36:09,beiyu,192.168.0.104,1,first,second,27,null
+2019-12-18 15:36:27 INFO  genLog:28 - 2019-12-18 15:36:27,beiyu,192.168.0.104,1,first,second,68,null
+2019-12-18 15:43:05 INFO  genLog:28 - 2019-12-18 15:43:05,beiyu,192.168.0.104,0,3,29,72,NIKE official flagship store
+2019-12-18 15:46:44 INFO  genLog:28 - 2019-12-18 15:46:44,beiyu,192.168.0.104,1,first,second,69,null
+2019-12-18 16:34:16 INFO  genLog:28 - 2019-12-18 16:34:16,beiyu,192.168.0.104,0,1,14,15,NIKE official flagship store
+2019-12-18 16:35:27 INFO  genLog:28 - 2019-12-18 16:35:27,beiyu,192.168.0.104,0,1,10,11,ZARA official flagship store
+2019-12-19 01:50:59 INFO  genLog:28 - 2019-12-19 01:50:59,jayce,192.168.0.104,0,3,28,29,PUMA official flagship store
+2019-12-19 01:51:14 INFO  genLog:28 - 2019-12-19 01:51:14,jayce,192.168.0.104,0,2,26,67,Uniqlos official flagship store
+2019-12-19 01:51:28 INFO  genLog:28 - 2019-12-19 01:51:28,jayce,192.168.0.104,1,first,second,29,null
